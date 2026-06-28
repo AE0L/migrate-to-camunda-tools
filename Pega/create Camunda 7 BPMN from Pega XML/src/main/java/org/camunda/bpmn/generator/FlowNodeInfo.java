@@ -25,6 +25,7 @@ public class FlowNodeInfo {
         type = typeInput;
 
         switch (type) {
+            case "interface org.camunda.bpm.model.bpmn.instance.Task":
             case "interface org.camunda.bpm.model.bpmn.instance.UserTask":
             case "interface org.camunda.bpm.model.bpmn.instance.ServiceTask":
             case "interface org.camunda.bpm.model.bpmn.instance.SendTask":

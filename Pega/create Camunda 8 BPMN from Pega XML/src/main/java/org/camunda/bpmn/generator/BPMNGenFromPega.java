@@ -45,6 +45,7 @@ public class BPMNGenFromPega {
             pegaElementsMap.put("Data-MO-Activity-Assignment", bpmnElement);
             bpmnElement = new PegaToBPMNElement(CallActivity.class, 80d, 100d);
             pegaElementsMap.put("Data-MO-Activity-SubProcess", bpmnElement);
+            pegaElementsMap.put("Data-MO-Activity-SubProcess-ScreenflowProcess", bpmnElement);
             bpmnElement = new PegaToBPMNElement(ServiceTask.class, 80d, 100d);
             pegaElementsMap.put("Data-MO-Activity-Utility", bpmnElement);
             bpmnElement = new PegaToBPMNElement(EndEvent.class, 36d, 36d);
