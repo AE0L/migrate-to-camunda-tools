@@ -48,6 +48,8 @@ public class BPMNGenFromPega {
             pegaElementsMap.put("Data-MO-Activity-SubProcess-ScreenflowProcess", bpmnElement);
             bpmnElement = new PegaToBPMNElement(Task.class, 80d, 100d);
             pegaElementsMap.put("Data-MO-Activity-Utility", bpmnElement);
+            bpmnElement = new PegaToBPMNElement(ServiceTask.class, 80d, 100d);
+            pegaElementsMap.put("Data-MO-Activity-Integrator", bpmnElement);
             bpmnElement = new PegaToBPMNElement(EndEvent.class, 36d, 36d);
             pegaElementsMap.put("Data-MO-Event-End", bpmnElement);
             pegaElementsMap.put("Data-MO-Event-Exception", bpmnElement);
